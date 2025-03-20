@@ -1,0 +1,10 @@
+int numero;
+    printf("Digite um numero: ");
+    scanf("%d",&numero);
+    if(numero<=0){
+        printf("Erro\n");}
+    else{
+        for(int x=1;x<=numero;x++){
+            if(x==1 || x%2==0 || x==numero){
+                printf("%d\n",x);}
+            else if(x%2!=0){}}}
